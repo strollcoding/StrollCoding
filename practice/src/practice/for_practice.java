@@ -8,10 +8,11 @@ public class for_practice {
 			//for(변수초기화; 조건식; 증감식)	
 //			if(i % 2 != 0) {
 //				continue; 
-			// continue 아래의 문장은 수행하지 X, 위의 조건문을 수행
+				// continue 아래의 문장은 수행하지 X, 위의 조건문을 수행하고 빠져나온다.
 //			}
 			if(i == 50) {
-				break; // break를 만나면 반복문을 바로 빠져나온다.
+				break; 
+				// break를 만나면 반복문을 바로 빠져나온다.
 			}
 			total = total + i;
 		}
