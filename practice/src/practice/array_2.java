@@ -10,15 +10,13 @@ public class array_2 {
 	    System.out.println(iarray.length);
 	    
 	    for(int i = 0; i < iarray.length; i++) {
-	    	iarray[i] = i + 1;
-	    	
+	    	iarray[i] = i + 1;	
 	    }
 	    
 	    int sum = 0;
 	    for(int i = 0; i < iarray.length; i++) {
 	    	sum = sum + iarray[i];
-	    }
-	    
+	    } 
 	   System.out.println(sum);
 	}
 
